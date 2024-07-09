@@ -6,6 +6,10 @@ export default function Home() {
       <div className="flex flex-col justify-center items-center w-full">
         <div className="flex justify-center mb-6">
           <Image src="/img/logo.svg" className="h-6" alt="Logo" width={50} height={50} />
+          <p>Employee Portal</p>
+          <div>
+             <p className="text-[11px]">v1.03.1</p>
+         </div>
         </div>
 
         <div className="divide-y divide-gray-300/50 w-full">
