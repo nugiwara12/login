@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 input[type="text"]:focus~.input-text {
-    @apply text-blue-500 bg-black transform -translate-y-9 -translate-x-4 scale-75;
+    @apply text-blue-500 bg-white transform -translate-y-9 -translate-x-4 scale-75;
+}
+input[type="password"]:focus~.input-text {
+    @apply text-blue-500 bg-white transform -translate-y-9 -translate-x-4 scale-75;
 }
