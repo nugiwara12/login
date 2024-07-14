@@ -8,7 +8,7 @@ export default function Home() {
           <Image src="/img/logo.svg" className="h-6 mb-2 sm:mb-0" alt="Logo" width={50} height={50} />
           <p className="ml-2 font-bold text-center sm:text-left text-black">
             Employee Portal <br />
-            <p className="text-[10px] sm:text-right">v1.03.1</p>
+            <span className="text-[10px] sm:text-end">v1.03.1</span>
           </p>
         </div>
 
